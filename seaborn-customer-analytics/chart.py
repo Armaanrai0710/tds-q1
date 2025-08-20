@@ -52,5 +52,5 @@ sns.despine()
 # ---------------------------
 # Save chart
 # ---------------------------
-plt.savefig("chart.png", dpi=64, bbox_inches="tight")
+plt.savefig("chart.png", dpi=64)
 plt.close()
