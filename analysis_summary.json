@@ -1,0 +1,14 @@
+{
+  "average_2024": 72.26,
+  "best_quarter": "Q4",
+  "best_value": 76.13,
+  "worst_quarter": "Q1",
+  "worst_value": 65.08,
+  "target": 85.0,
+  "quarterly_values": {
+    "Q1": 65.08,
+    "Q2": 74.61,
+    "Q3": 73.22,
+    "Q4": 76.13
+  }
+}
