@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Quarterly Earnings Report</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h2>Quarterly Earnings Report</h2>
+        <p>Prepared by: 24ds2000041@ds.study.iitm.ac.in</p>
+        <aside class="notes">Introduce the report and highlight key growth areas.</aside>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+        ## Key Metrics (Markdown Slide)
+
+        - Revenue ↑ 12% YoY
+        - Net Income ↑ 8%
+        - Customer Retention: 72.26% (Target: 85%)
+        </textarea>
+      </section>
+
+      <section>
+        <h3>Churn Reduction Strategy</h3>
+        <p class="fragment">Implement targeted retention campaigns</p>
+        <p class="fragment">Micro-segmentation of customers</p>
+        <p class="fragment">Proactive outreach at risk signals</p>
+        <aside class="notes">Walk through the phased plan for improving retention.</aside>
+      </section>
+
+      <section>
+        <h3>Code Sample</h3>
+        <pre><code class="python">
+        import pandas as pd
+        data = [65.08, 74.61, 73.22, 76.13]
+        avg = sum(data)/len(data)
+        print(avg)  # 72.26
+        </code></pre>
+      </section>
+
+      <section>
+        <h3>Financial Formula</h3>
+        <p>Return on Investment (ROI):</p>
+        <p>$$ ROI = \\frac{{Net\\ Profit}}{{Cost\\ of\\ Investment}} \\times 100 $$</p>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/math/math.js"></script>
+  <script>
+    Reveal.initialize({
+      plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ]
+    });
+  </script>
+</body>
+</html>
