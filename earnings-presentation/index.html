@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quarterly Earnings Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/black.min.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        
+        <!-- Markdown Slide -->
+        <section data-markdown>
+          <textarea data-template>
+            # Quarterly Earnings Report  
+            **Prepared by:** 24ds2000041@ds.study.iitm.ac.in  
+          </textarea>
+        </section>
+
+        <!-- Animated fragments -->
+        <section>
+          <h2>Highlights</h2>
+          <p class="fragment">Revenue ↑ 15%</p>
+          <p class="fragment">Expenses ↓ 7%</p>
+          <p class="fragment">Net Profit ↑ 22%</p>
+        </section>
+
+        <!-- Code sample with syntax highlighting -->
+        <section>
+          <h2>Python Snippet</h2>
+          <pre><code class="python">
+import pandas as pd
+df = pd.read_csv("earnings.csv")
+print(df.describe())
+          </code></pre>
+        </section>
+
+        <!-- Mathematical equation -->
+        <section>
+          <h2>Financial Formula</h2>
+          <p>\( ROI = \frac{Net\ Profit}{Investment} \times 100 \)</p>
+        </section>
+
+        <!-- Slide with speaker notes -->
+        <section>
+          <h2>Next Steps</h2>
+          <aside class="notes">
+            Emphasize importance of targeted retention campaigns and cost optimization.
+          </aside>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/math/math.min.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ]
+      });
+    </script>
+  </body>
+</html>
