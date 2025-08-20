@@ -14,8 +14,11 @@ Prepared by: **24ds2000041@ds.study.iitm.ac.in**
 
 ---
 
-<!-- _backgroundImage: url('images/bg.jpg') -->
-<!-- _backgroundSize: cover -->
+<!-- Background image -->
+
+![bg](images/bg.jpg)
+![bg fit](images/bg.jpg) # Fit to slide
+![bg cover](images/bg.jpg) # Cover slide
 
 # Background Image Slide
 
